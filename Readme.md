@@ -1,4 +1,24 @@
 
-## This is [Hololens Acamemy 240](https://developer.microsoft.com/ja-jp/windows/holographic/holograms_240) Add-on.
-easy to change sharing server settings on your Hololens.
+ ## This is [Hololens 240](https://developer.microsoft.com/ja-jp/windows/holographic/holograms_240) Add-on.
+## Anytime you can change sharing settings on your Hololens.
 
+# Overview
+[Hololens 240](https://developer.microsoft.com/ja-jp/windows/holographic/holograms_240)  is a sample project to learn how to develop a Hololens sharing application on Unity.
+it is good sample,but we must build application every time only to change server information (network-ip and port).
+
+This Add-on contain a simple scene to change server information using Air-Tap.
+This add-on will save your time.
+
+![Start up scene](External/readmeimage.png)
+
+# How to use
+
+1. Open [Hologram 240  project](https://developer.microsoft.com/ja-jp/windows/holographic/holograms_240) as ever.
+2. Import this add-on on your Assets folder.([unitypackage is
+here](External/StartupSceneFor240.unitypackage))
+3. Open littlewring\StartUp.scene on Unity Editor.
+4. Add StartUp scene as first scene.(File -> Build Settings -> Scenes in Build)
+5. Build & Deploy and Run.
+
+# License
+MIT License.
