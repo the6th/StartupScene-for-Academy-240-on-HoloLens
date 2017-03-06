@@ -1,5 +1,4 @@
-
- ## This is [Hololens 240](https://developer.microsoft.com/ja-jp/windows/holographic/holograms_240) Add-on.
+## This is [Hololens 240](https://developer.microsoft.com/ja-jp/windows/holographic/holograms_240) Add-on.
 ## Anytime you can change sharing settings on your Hololens.
 
 # Overview
@@ -9,7 +8,7 @@ it is good sample,but we must build application every time only to change server
 This Add-on contain a simple scene to change server information using Air-Tap.
 This add-on will save your time.
 
-![Start up scene](External/readmeimage.png)
+![Start up scene](External/readmeimage.jpg)
 
 # How to use
 
