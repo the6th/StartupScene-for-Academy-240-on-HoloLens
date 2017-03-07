@@ -14,10 +14,10 @@ This add-on will save your time.
 
 1. Open [Hologram 240  project](https://developer.microsoft.com/ja-jp/windows/holographic/holograms_240) as ever.
 2. Open \Assets\HoloToolkit-Sharing-240\Sharing\ScriptsSharingStage.cs,and add follow 2 lines on Awake method.
-```
-ServerAddress = PlayerPrefs.GetString("host");
-ServerPort = int.Parse(PlayerPrefs.GetString("port"));
-```
+ ```
+ ServerAddress = PlayerPrefs.GetString("host");
+ ServerPort = int.Parse(PlayerPrefs.GetString("port"));
+ ```
 3. Import this add-on on your Assets folder.([unitypackage is
 here](External/StartupSceneFor240.unitypackage))
 4. Open littlewring\StartUp.scene on Unity Editor.
