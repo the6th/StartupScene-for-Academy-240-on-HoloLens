@@ -13,11 +13,16 @@ This add-on will save your time.
 # How to use
 
 1. Open [Hologram 240  project](https://developer.microsoft.com/ja-jp/windows/holographic/holograms_240) as ever.
-2. Import this add-on on your Assets folder.([unitypackage is
+2. Open \Assets\HoloToolkit-Sharing-240\Sharing\ScriptsSharingStage.cs,and add follow 2 lines on Awake method.
+```
+ServerAddress = PlayerPrefs.GetString("host");
+ServerPort = int.Parse(PlayerPrefs.GetString("port"));
+```
+3. Import this add-on on your Assets folder.([unitypackage is
 here](External/StartupSceneFor240.unitypackage))
-3. Open littlewring\StartUp.scene on Unity Editor.
-4. Add StartUp scene as first scene.(File -> Build Settings -> Scenes in Build)
-5. Build & Deploy and Run.
+4. Open littlewring\StartUp.scene on Unity Editor.
+5. Add StartUp scene as first scene.(File -> Build Settings -> Scenes in Build)
+6. Build & Deploy and Run.
 
 # License
 MIT License.
