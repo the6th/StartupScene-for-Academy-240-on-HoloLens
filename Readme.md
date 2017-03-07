@@ -20,7 +20,7 @@ This add-on will save your time.
  ```
 3. Import this add-on on your Assets folder.([unitypackage is
 here](External/StartupSceneFor240.unitypackage))
-4. Open littlewring\StartUp.scene on Unity Editor.
+4. Open littlewing\StartUp.scene on Unity Editor.
 5. Add StartUp scene as first scene.(File -> Build Settings -> Scenes in Build)
 6. Build & Deploy and Run.
 
