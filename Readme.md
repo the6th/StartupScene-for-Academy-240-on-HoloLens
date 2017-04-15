@@ -1,8 +1,8 @@
-## This is [Hololens 240](https://developer.microsoft.com/ja-jp/windows/holographic/holograms_240) Add-on.
-## Anytime you can change sharing settings on your Hololens.
+## This is [Holograms 240](https://developer.microsoft.com/ja-jp/windows/holographic/holograms_240) Add-on.
+## Anytime you can change sharing settings on your HoloLens.
 
 # Overview
-[Hololens 240](https://developer.microsoft.com/ja-jp/windows/holographic/holograms_240)  is a sample project to learn how to develop a Hololens sharing application on Unity.
+[Holograms 240](https://developer.microsoft.com/ja-jp/windows/holographic/holograms_240)  is a sample project to learn how to develop a HoloLens sharing application on Unity.
 it is good sample,but we must build application every time only to change server information (network-ip and port).
 
 This Add-on contain a simple scene to change server information using Air-Tap.
@@ -12,8 +12,8 @@ This add-on will save your time.
 
 # How to use
 
-1. Open [Hologram 240  project](https://developer.microsoft.com/ja-jp/windows/holographic/holograms_240) as ever.
-2. Open \Assets\HoloToolkit-Sharing-240\Sharing\ScriptsSharingStage.cs,and add follow 2 lines on Awake method.
+1. Open [Holograms 240 project](https://developer.microsoft.com/ja-jp/windows/holographic/holograms_240) as ever.
+2. Open \Assets\HoloToolkit-Sharing-240\Sharing\Scripts\SharingStage.cs,and add follow 2 lines on Awake method.
  ```
  ServerAddress = PlayerPrefs.GetString("host");
  ServerPort = int.Parse(PlayerPrefs.GetString("port"));
